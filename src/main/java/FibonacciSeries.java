@@ -1,4 +1,4 @@
-public class FiboncciSeries {
+public class FibonacciSeries {
 
     public void seriesPrint() {
 
