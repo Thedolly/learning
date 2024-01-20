@@ -24,7 +24,7 @@ public class FibonacciSeries {
         Random random = new Random();
         int index = random.nextInt(0, 17);
         System.out.println("random number from fibonacci series " + list.get(index));
-        System.out.print("even number from fibonacci series  " + list.stream().filter(i -> (i % 2) == 0).collect(Collectors.toList()));
+        System.out.print("even number from fibonacci series  " + list.stream().filter(i -> (i % 2) == 0).toList());
 
 
     }
