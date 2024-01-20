@@ -22,8 +22,8 @@ public class FibonacciSeries {
         System.out.print(" "+list);
         System.out.println();
         Random random = new Random();
-        System.out.println(random.nextInt(0,17));
-        System.out.println(list.indexOf(random.nextInt(0,17)));
+        int index =random.nextInt(0,17);
+        System.out.println(list.get(index));
 
     }
 }
