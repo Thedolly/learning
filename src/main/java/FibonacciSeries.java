@@ -23,7 +23,7 @@ public class FibonacciSeries {
         System.out.println();
         Random random = new Random();
         int index =random.nextInt(0,17);
-        System.out.println(list.get(index));
+        System.out.println(" " +list.get(index));
 
     }
 }
