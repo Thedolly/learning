@@ -4,7 +4,6 @@ public class FibonacciSeries {
 
         int num1 = 0;
         int num2 = 1;
-        int i;
 
         /*System.out.print(num1 + " " + num2);
 
@@ -18,11 +17,11 @@ public class FibonacciSeries {
         int num3 = num1 + num2;
         while(num3<=1000){
             System.out.print(" "+num3);
-           num2 = num3;
-           num1 = num2;
-           num3=num1+num2;
+            num1 = num2;
+            num2 = num3;
+            num3=num1+num2;
 
         }
-      /*  System.out.print(" "+num3);*/
+        /*  System.out.print(" "+num3);*/
     }
 }
