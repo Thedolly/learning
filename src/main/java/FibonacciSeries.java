@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class FibonacciSeries {
 
@@ -19,6 +20,10 @@ public class FibonacciSeries {
             num3=num1+num2;
         }
         System.out.print(" "+list);
+        System.out.println();
+        Random random = new Random();
+        System.out.println(random.nextInt(0,17));
+        System.out.println(list.indexOf(random.nextInt(0,17)));
 
     }
 }
