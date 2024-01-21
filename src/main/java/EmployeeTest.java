@@ -1,20 +1,18 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class EmployeeTest {
 
-    public void employeeList(){
+    public void employeeList() {
 
-        List<String> list = new ArrayList<>();
+        List<String> list = Arrays.asList("James", "Jenifer", "Nick", "Joe", "Harrick", "Parth", "Timcook");
 
-        list.add("James");
-        list.add("Jenifer");
-        list.add("Nick");
-        list.add("Joe");
-        list.add("Harrick");
-        list.add("Parth");
-        list.add("Tim cook");
+        Collections.sort(list, Comparator.comparingInt(String::length));
 
-        System.out.println(list.stream().sorted().toList());
+        for (String str : list) {
+            System.out.print(str + " ");
+        }
+        System.out.println();
+
     }
 }
